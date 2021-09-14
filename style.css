@@ -8,9 +8,12 @@
   font-family: "Poppins", sans-serif;
 }
 
+.shadow{
+    box-shadow:0 4px 8px rgba(0,0,0,0.15)
+}
+
 body{
     background: #7ABC43;
-    box-shadow:0 4px 8px rgba(0,0,0,0.15)
 }
 
 
@@ -64,4 +67,11 @@ button{
 
 button:hover{
     background-color: #4D4D4D;
+}
+
+footer{
+    margin-top: 575px;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    text-align: center;
 }
